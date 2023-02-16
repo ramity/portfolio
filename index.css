@@ -3,7 +3,14 @@ body
     background-color: #fff;
 }
 
-div.top-title
+/* Utility classes */
+
+.ti-3
+{
+    text-indent: 1em;
+}
+
+div#introduction
 {
     background-color: #3498db;
     color: #ecf0f1;
@@ -11,38 +18,77 @@ div.top-title
     text-align: center;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+span#introduction-name
 {
-    background-color: #3498db;
+    background-color: #2980b9;
+    color: #fff;
+    border-bottom: 10px solid #fff;
 }
 
-.nav-link
+div#opening-statement
 {
-    color: #3498db;
-}
-
-p.top-description,p.top-showcase
-{
+    border-left: 10px solid #bdc3c7;
+    border-bottom: 10px solid #bdc3c7;
     background-color: #ecf0f1;
-    box-shadow: 20px 20px 15px #fafafa;
+    color: #000;
 }
 
-p.top-showcase
+div#opening-statement:hover
 {
-    border-left: none;
-    border-right: 10px solid #27ae60;
-    background-color: #1abc9c;
-    border-right: 10px solid #16a085;
+    border-left: 10px solid #3498db;
+    border-bottom: 10px solid #3498db;
 }
 
-.c-s-0
+div#toc
 {
-    border-right: 10px solid #7f8c8d;
-    background-color: #95a5a6;
+    border-bottom: 10px solid #8e44ad;
+    background-color: #9b59b6;
     color: #fff;
 }
 
-.c-s-1
+ul#toc > li
+{
+    border-left: 10px solid #9b59b6;
+    border-bottom: none;
+    background-color: #ecf0f1;
+    cursor: pointer;
+}
+
+ul#toc > li:hover
+{
+    border-left: 10px solid #8e44ad;
+    background-color: #bdc3c7;
+    color: #9b59b6;
+}
+
+div#about-me
+{
+    border-bottom: 10px solid #2c3e50;
+    background-color: #34495e;
+    color: #fff;
+}
+
+div#about-me-prompt
 {
     border-left: 10px solid #bdc3c7;
+    border-bottom: 10px solid #bdc3c7;
+    background-color: #ecf0f1;
+}
+
+div#about-me-prompt:hover
+{
+    border-left: 10px solid #34495e;
+    border-bottom: 10px solid #34495e;
+}
+
+div#work-experience
+{
+    border-bottom: 10px solid #16a085;
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+div.card
+{
+    border-radius: 0px;
 }
