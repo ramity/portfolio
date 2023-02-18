@@ -14,7 +14,7 @@
           <span id="introduction-name" class="badge rounded-0">Lewis Brown</span>
         </h1>
         <h5 class="display-6 m-0">Software Engineer</h5>
-        <h5 class="display-6 m-0">Full-Stack Web Developer</h5>
+        <h5 class="display-6 m-0">Full-Stack Engineer</h5>
         <h5 class="display-6 m-0 pb-5">Machine Learning Engineer</h5>
       </div>
     </div>
@@ -46,8 +46,8 @@
       </div>
     </div>
     <div class="container mb-5">
-      <div class="row g-5">
-        <div class="col-md-6">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
           <ul class="toc-list list-group list-group-flush display-6 p-0">
             <a class="text-decoration-none" href="#about-me">
               <li class="list-group-item p-5 auto-fade">About Me</li>
@@ -63,7 +63,7 @@
             </a>
           </ul>
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-lg-6">
           <ul class="toc-list list-group list-group-flush display-6 p-0">
             <a class="text-decoration-none" href="#education">
               <li class="list-group-item p-5 auto-fade">Education</li>
@@ -118,21 +118,25 @@
     </div>
     <div class="container mb-5">
       <div class="row">
-        <div id="work-experience-cards">
-          <div class="card mb-5 auto-fade">
+        <div id="work-experience-timeline" class="mb-5 p-3 auto-fade">
+          <div id="work-experience-timeline-header" class="mb-3 lead"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="work-experience-cards" class="p-0">
+          <div id="work-experience-0" class="card mb-5 auto-fade">
             <div class="card-header">
               Jun 2022 - Present (9 months)
             </div>
             <div class="card-body">
-              <h3 class="card-title">Full-Stack Web Developer @ Freelance</h3>
+              <h3 class="card-title">Full-Stack Engineer @ Freelance</h3>
               <p class="card-text ti-3">With supporting text below as a natural lead-in to additional content.</p>
             </div>
             <div class="card-footer text-muted">
               Python, Docker, Django, Stripe
             </div>
           </div>
-
-          <div class="card mb-5 auto-fade">
+          <div id="work-experience-1" class="card mb-5 auto-fade">
             <div class="card-header">
               Aug 2022 - Dec 2022 (5 months)
             </div>
@@ -144,8 +148,7 @@
               Data Visualization, LaTeX, Lecturing, Debugging Code, C++
             </div>
           </div>
-
-          <div class="card mb-5 auto-fade">
+          <div id="work-experience-2" class="card mb-5 auto-fade">
             <div class="card-header">
               Feb 2020 - Aug 2022 (2 years 7 months)
             </div>
@@ -157,21 +160,19 @@
               Python, AngularIO, Docker, Django, Machine Learning
             </div>
           </div>
-
-          <div class="card mb-5 auto-fade">
+          <div id="work-experience-3" class="card mb-5 auto-fade">
             <div class="card-header">
               Aug 2018 - Feb 2020 (1 year 7 months)
             </div>
             <div class="card-body">
-              <h3 class="card-title">Full-Stack Developer @ CTTP - University of Arkansas Research Center</h3>
+              <h3 class="card-title">Full-Stack Engineer @ CTTP - University of Arkansas Research Center</h3>
               <p class="card-text ti-3">Tasked in a small team of developers to contribute, optimize, refactor, and migrate legacy implementations into a symfony LTS codebase for a state accredited engineering company. I assisted in digitization of processes, the migration away from Microsoft Access to a symfony powered web application, and contributed to many internally and externally used applications. CTTP provides training and certification services for employees and contractors of the AR Department of Transportation (ARDOT).</p>
             </div>
             <div class="card-footer text-muted">
               PHP, Docker, MySQL, Symfony Framework, AngularJS, CSS, MS Access
             </div>
           </div>
-
-          <div class="card mb-5 auto-fade">
+          <div id="work-experience-4" class="card mb-5 auto-fade">
             <div class="card-header">
               May 2018 - Aug 2018 (4 months)
             </div>
@@ -185,13 +186,12 @@
               Optical Character Recognition (OCR), Flask, Python, Machine Learning, Computer Vision
             </div>
           </div>
-
-          <div class="card mb-5 auto-fade">
+          <div id="work-experience-5" class="card mb-5 auto-fade">
             <div class="card-header">
               Dec 2016 - May 2018 (1 year 6 months)
             </div>
             <div class="card-body">
-              <h3 class="card-title">Full-Stack Web Developer @ Thrive GmbH</h3>
+              <h3 class="card-title">Full-Stack Developer @ Thrive GmbH</h3>
               <p class="card-text ti-3">Created software for a wide range of clients through a software development company based in Bietigheim-Bissingen, Germany. I loved the challenging work.</p>
               <p class="card-text ti-3">Contributed to an inventory system overhaul in a challenge hosted by BMW which was selected for utilization in a major manufacturing pant. The system consisted of a barcode scanning glove, programmable e-ink displays, and interaction with an existing MQTT system for querying existing inventories for requested and required parts. Our implementation significantly modernized the part-request process for assembly lines and replaced a pen-and-paper solution. The solution made the job of pulling parts from storage incredibly intuitive: requested parts were highlighted by a green light on the display (and only then was a barcode was displayed), the barcode was scanned via glove, and placed on the line. The glove sent the scanned barcode data to a locally networked MQTT broker, was processed by the inventory management system, and refreshed displays to highlight the next requested part (default state of red light and no displayed barcode). The project had many unique challenges. We were only API-like details of the internal MQTT system at BMW. Additionally, all the hardware mentioned above was created in-house and required integration (gloves and displays to a control system on a simulated MQTT network). Lastly, all remote without physical access for testing.</p>
               <p class="card-text ti-3">Contributed to a multi-bus public transit system dubbed "der bürgerbus" (the citizen bus) in a seed grant sponsored by the EU for enabling public transit for rural towns in Germany. It required a custom routing solution to allow for dynamic time and location scheduling of stops. Most of my work consisted of extending "Project OSRM" to handle the dynamic constraints mentioned above and allow operators to view and modify with the proposed routing solutions via a web user interface. Probably the most complicated problem I've had the pleasure of programming.</p>
@@ -200,10 +200,9 @@
               OpenStreetMap, MQTT, Laravel, Docker, PHP
             </div>
           </div>
-
-          <div class="card auto-fade">
+          <div id="work-experience-6" class="card auto-fade">
             <div class="card-header">
-            Feb 2016 - May 2018 (2 years 4 months)
+              Feb 2016 - May 2018 (2 years 4 months)
             </div>
             <div class="card-body">
               <h3 class="card-title">Full-Stack Developer @ CTTP - University of Arkansas Research Center</h3>
@@ -283,6 +282,7 @@
       </div>
     </a>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
     <script src="index.js"></script>
   </body>
 </html>

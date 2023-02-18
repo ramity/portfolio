@@ -20,6 +20,11 @@ body
     padding-right: 0 !important;
 }
 
+.pb-0
+{
+    padding-bottom: 0 !important;
+}
+
 .auto-fade
 {
     transition: border-color 400ms ease-out, color 400ms ease-out, background-color 400ms ease-out, opacity 400ms ease-out;
@@ -78,14 +83,14 @@ div#opening-statement:hover
 
 div#toc
 {
-    border-bottom: 10px solid #2980b9;
-    background-color: #3498db;
+    border-bottom: 10px solid #8e44ad;
+    background-color: #9b59b6;
     color: #fff;
 }
 
 ul.toc-list > a > li
 {
-    border-left: 10px solid #3498db;
+    border-left: 10px solid #9b59b6;
     border-bottom: none;
     background-color: #ecf0f1;
     cursor: pointer;
@@ -93,9 +98,9 @@ ul.toc-list > a > li
 
 ul.toc-list > a > li:hover
 {
-    border-left: 10px solid #2980b9;
+    border-left: 10px solid #8e44ad;
     background-color: #bdc3c7;
-    color: #3498db;
+    color: #9b59b6;
 }
 
 div#about-me
@@ -123,6 +128,48 @@ div#work-experience
     border-bottom: 10px solid #16a085;
     background-color: #1abc9c;
     color: #fff;
+}
+
+div#work-experience-timeline
+{
+    background-color: #ecf0f1;
+    border-left: 10px solid #bdc3c7;
+    border-bottom: 10px solid #bdc3c7;
+}
+
+div#work-experience-timeline:hover
+{
+    border-left: 10px solid #1abc9c;
+    border-bottom: 10px solid #1abc9c;
+}
+
+div#work-experience-timeline-header
+{
+    background-color: #bdc3c7;
+}
+
+div#work-experience-timeline-header > div
+{
+    border-left: 2px solid #95a5a6;
+    border-bottom: 2px solid #95a5a6;
+    text-align: center;
+    display: inline-block;
+}
+
+div#work-experience-timeline > a
+{
+    margin-bottom: 1em;
+    background-color: #bdc3c7;
+}
+
+div#work-experience-timeline > a:last-child
+{
+    margin-bottom: 0px;
+}
+
+div#work-experience-timeline > a:hover
+{
+    background-color: #1abc9c;
 }
 
 div#work-experience-cards > div.card
@@ -182,7 +229,7 @@ div#testimonials
 
 div#contact
 {
-    border-bottom: 10px solid #8e44ad;
-    background-color: #9b59b6;
+    border-bottom: 10px solid #2980b9;
+    background-color: #3498db;
     color: #fff;
 }
