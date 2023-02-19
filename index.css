@@ -196,6 +196,53 @@ div#projects
     color: #fff;
 }
 
+div#projects-container > h2
+{
+    padding: 1.5em;
+    margin-bottom: 0px;
+    background-color: #ecf0f1;
+    border-left: 10px solid #bdc3c7;
+}
+
+div#projects-container > figure
+{
+    margin-bottom: 1.5em;
+    padding: 0px;
+}
+
+div#projects-container img
+{
+    margin: 0px;
+}
+
+div#projects-container figcaption
+{
+    background-color: #ecf0f1;
+    padding: 1.5em;
+}
+
+div#projects-container > div.description
+{
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    border-left: 10px solid #ecf0f1;
+}
+
+div#projects-container > div.description > p
+{
+    text-indent: 1em;
+    margin-bottom: 1.5em;
+}
+
+div#projects-container > div.description > p:last-child
+{
+    margin-bottom: 0px;
+}
+
+div#projects-container > div.carousel
+{
+    padding: 0px;
+}
 
 
 
