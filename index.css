@@ -340,3 +340,14 @@ div#contact
     background-color: #3498db;
     color: #fff;
 }
+
+div#contact-container
+{
+    background-color: #ecf0f1;
+    border-left: 10px solid #bdc3c7;
+}
+
+div#contact-container:hover
+{
+    border-left: 10px solid #3498db;
+}
