@@ -275,11 +275,13 @@ div#skills-container h1
 {
     padding: .5em;
     border-bottom: 1px solid #bdc3c7;
+    margin: 0px;
 }
 
 div#skills-container p
 {
     padding: 1em;
+    margin: 0px;
 }
 
 div#education
