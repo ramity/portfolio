@@ -30,6 +30,11 @@ body
     transition: border-color 400ms ease-out, color 400ms ease-out, background-color 400ms ease-out, opacity 400ms ease-out;
 }
 
+.mw-960
+{
+    max-width: 960px;
+}
+
 div#back-to-top
 {
     position: fixed;
@@ -172,9 +177,13 @@ div#work-experience-timeline > a:hover
     background-color: #1abc9c;
 }
 
-div#work-experience-cards > div.card
+div.card
 {
     border-radius: 0px;
+}
+
+div#work-experience-cards > div.card
+{
     border-left: 10px solid #bdc3c7;
 }
 
@@ -244,13 +253,33 @@ div#projects-container > div.carousel
     padding: 0px;
 }
 
-
-
 div#skills
 {
     border-bottom: 10px solid #27ae60;
     background-color: #2ecc71;
     color: #fff;
+}
+
+div#skills-container
+{
+    background-color: #ecf0f1;
+    border-left: 10px solid #bdc3c7;
+}
+
+div#skills-container:hover
+{
+    border-left: 10px solid #2ecc71;
+}
+
+div#skills-container h1
+{
+    padding: .5em;
+    border-bottom: 1px solid #bdc3c7;
+}
+
+div#skills-container p
+{
+    padding: 1em;
 }
 
 div#education
@@ -260,6 +289,16 @@ div#education
     color: #fff;
 }
 
+div#education-cards > div.card
+{
+    border-left: 10px solid #bdc3c7;
+}
+
+div#education-cards > div.card:hover
+{
+    border-left: 10px solid #f1c40f;
+}
+
 div#publications
 {
     border-bottom: 10px solid #d35400;
@@ -267,11 +306,32 @@ div#publications
     color: #fff;
 }
 
+div#publication-cards > div.card
+{
+    border-left: 10px solid #bdc3c7;
+}
+
+div#publication-cards > div.card:hover
+{
+    border-left: 10px solid #e67e22;
+}
+
 div#testimonials
 {
     border-bottom: 10px solid #c0392b;
     background-color: #e74c3c;
     color: #fff;
+}
+
+div#testimonial-container
+{
+    background-color: #ecf0f1;
+    border-left: 10px solid #bdc3c7;
+}
+
+div#testimonial-container:hover
+{
+    border-left: 10px solid #e74c3c;
 }
 
 div#contact
