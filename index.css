@@ -213,8 +213,7 @@ div#projects-container > h2
     border-left: 10px solid #bdc3c7;
 }
 
-div#projects-container > h2:hover,
-div#projects-container > div.description
+div#projects-container > h2:hover
 {
     border-left: 10px solid #81ecec;
 }
@@ -241,6 +240,11 @@ div#projects-container > div.description
     padding: 1.5em;
     margin-bottom: 1.5em;
     border-left: 10px solid #ecf0f1;
+}
+
+div#projects-container > div.description:hover
+{
+    border-left: 10px solid #81ecec;
 }
 
 div#projects-container > div.description > p
