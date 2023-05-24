@@ -213,6 +213,12 @@ div#projects-container > h2
     border-left: 10px solid #bdc3c7;
 }
 
+div#projects-container > h2:hover,
+div#projects-container > div.description
+{
+    border-left: 10px solid #81ecec;
+}
+
 div#projects-container > figure
 {
     margin-bottom: 1.5em;
