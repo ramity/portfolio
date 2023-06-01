@@ -44,7 +44,7 @@ $("div#work-experience-cards div.card-header").each(function () {
 function emptyWorkExperienceTimeline()
 {
     $("div#work-experience-timeline-header").empty();
-    $("div#work-experience-timeline > a").remove()
+    $("div#work-experience-timeline > a").remove();
 }
 
 
@@ -70,7 +70,16 @@ function populateWorkExperienceTimeline()
         var rightCount = (endYearDelta * 12) + (12 - date[2]);
         var leftSpacing = leftCount * timelineResolution;
         var rightSpacing = rightCount * timelineResolution;
-        var elementWidth = timelineWidth - leftSpacing - rightSpacing
+        var elementWidth = timelineWidth - leftSpacing - rightSpacing;
+
+        console.log(elementWidth);
+
+        if (elementWidth <= 0)
+        {
+            leftSpacing -= 10;
+            rightSpacing -= 10;
+            elementWidth += 20;
+        }
 
         var timelineLink = $("<a></a>")
             .attr("href", `#work-experience-${z}`)
