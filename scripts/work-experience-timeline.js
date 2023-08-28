@@ -72,8 +72,6 @@ function populateWorkExperienceTimeline()
         var rightSpacing = rightCount * timelineResolution;
         var elementWidth = timelineWidth - leftSpacing - rightSpacing;
 
-        console.log(elementWidth);
-
         if (elementWidth <= 0)
         {
             leftSpacing -= 10;
